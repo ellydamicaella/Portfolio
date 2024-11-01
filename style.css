@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50; /* Cor do cabeçalho */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centraliza os itens da lista */
+}
+
+nav li {
+    display: inline; /* Itens da lista em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+nav a:hover {
+    color: #76ff03; /* Cor ao passar o mouse */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50; /* Cor do cabeçalho */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centraliza os itens da lista */
+}
+
+nav li {
+    display: inline; /* Itens da lista em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+nav a:hover {
+    color: #63c910; /* Cor ao passar o mouse */
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #ededed; /* Cor da seção inicial */
+    transition: background-color 0.3s; /* Transição suave */
+}
+.home {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center;
+    padding: 20px;
+    background-color: #efefef; /* Cor da seção inicial */
+}
+
+.home-content {
+    margin-right: 20px; /* Espaçamento entre conteúdo e foto */
+}
+
+.foto {
+    flex-shrink: 0; /* Não permite que a foto encolha */
+}
+
+.foto img {
+    width: 200px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px; /* Bordas arredondadas na foto */
+}
+
+.skills {
+    display: flex; /* Usando Flexbox para habilidades */
+    justify-content: center; /* Centraliza as habilidades */
+    gap: 15px; /* Espaçamento entre as habilidades */
+    list-style-type: none; /* Remove marcadores */
+    padding: 0; /* Remove padding padrão */
+}
+
+.skills li {
+    padding: 5px 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.skills li:hover {
+    background-color: #76ff03; /* Cor ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+
+
+
+#projetos {
+    margin: 20px 0;
+    text-align: center; /* Centraliza o texto */
+}
+
+.projetos-container {
+    display: flex; /* Usando Flexbox para layout */
+    justify-content: center; /* Centraliza os projetos */
+    gap: 20px; /* Espaçamento entre os projetos */
+}
+
+.projeto {
+    background-color: #a5d6a7; /* Cor de fundo dos projetos */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno */
+    width: 200px; /* Largura dos projetos */
+    text-align: center; /* Centraliza o texto do projeto */
+}
+
+
+
+.projeto a {
+    display: inline-block; /* Botão */
+    padding: 10px 15px; /* Espaçamento interno */
+    background-color: #4caf50; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.projeto a:hover {
+    background-color: #76ff03; /* Cor ao passar o mouse no botão */
+}
+
+#contato {
+    margin: 20px 0; /* Espaçamento superior e inferior */
+}
+
+#form-contato {
+    display: flex;
+    flex-direction: column; /* Formulário em coluna */
+    align-items: center; /* Centraliza o conteúdo */
+    gap: 10px; /* Espaçamento entre os campos */
+}
+
+input, textarea {
+    width: 100%; /* Largura total */
+    max-width: 400px; /* Largura máxima */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda do campo */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+button {
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    background-color: #4caf50; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #9b9d9a; /* Cor ao passar o mouse no botão */
+}
+
+.social-links {
+    display: flex; /* Usando Flexbox para layout */
+    justify-content: center; /* Centraliza as redes sociais */
+    gap: 15px; /* Espaçamento entre as redes sociais */
+    margin: 20px 0; /* Espaçamento superior e inferior */
+}
+
+.social-links a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #3c433c; /* Cor do texto */
+}
+
+footer {
+    background-color: #4caf50; /* Mesma cor do cabeçalho */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+}
